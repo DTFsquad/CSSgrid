@@ -7,7 +7,10 @@
 
 
 .green {
-    grid-column: 1/4;
+    /* span to 2 grids on columns */
+    grid-column: span 2;
+    /* start at row 1 and ends at row 3. Is moving all the green class elelents to start at row 1 */
+    grid-row: 1/3;
 }
 
 .zone {
